@@ -1,0 +1,60 @@
+
+.bg-dark {
+    background-color: #011A1C!important;
+}
+.showcase{
+    background-color: #011A1C!important;
+}
+.newsletter,.series{
+    background-color:#BB8C0F;
+}
+.learn{
+    background-color: #F1F3F4;
+}
+.features_card{
+    width: 18rem;
+
+  }
+
+
+
+
+@media(min-width:768px){
+    .newsletter_input{
+        width:50%;
+       
+    }
+    
+    .newsletter h3,.learn-h2{
+        text-align: center!important;
+    }
+
+ 
+
+    .learn{
+        align-items: center;
+    }
+    
+}
+
+
+@media(max-width:768px){
+    .newsletter h3,.learn-h2{
+        text-align: center!important;
+    }
+.learn p{
+        text-align: justify!important;
+    }
+  
+    .features_card {
+        margin-left: 80px;
+    }
+
+    
+}
+
+@media (max-width: 992px) {
+    .learn img{
+        margin-left: 80px;
+    }
+}
