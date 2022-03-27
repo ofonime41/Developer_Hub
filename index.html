@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
+ 
   <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -49,8 +47,8 @@
             to
             get your dream job. We have seasoned instructors waiting to impart you with the knowlege you require.
           </p>
-
-          <button class="btn btn-primary btn-lg">Start Enrolment</button>
+          <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start Enrolment
+          </button>
         </div>
 
         <img class="img-fluid w-50 d-none d-sm-block " src="./img/img1-nbg.png">
@@ -73,40 +71,40 @@
   <!-- Features -->
   <section class="p-5 features">
     <div class="container">
-     <div class="d-md-flex justify-content-center  text-center ">
-       <div  class="features_card mx-md-4 mb-3">
-        <div class="card bg-dark text-light h-100 ">
-          <div class="card-body">
-            <div class="h1 mb-2"><i class="bi bi-laptop"></i></div>
-            <h4 class="card-title mb-3">Virtual</h4>
-            <p class="card-text">Learn from the comfort of your home or office with our virtual classes.</p>
-            <a href="#" class="btn text-light series">Learn More</a>
+      <div class="d-md-flex justify-content-center  text-center ">
+        <div class="features_card mx-md-4 mb-3">
+          <div class="card bg-dark text-light h-100 ">
+            <div class="card-body">
+              <div class="h1 mb-2"><i class="bi bi-laptop"></i></div>
+              <h4 class="card-title mb-3">Virtual</h4>
+              <p class="card-text">Learn from the comfort of your home or office with our virtual classes.</p>
+              <a href="#" class="btn text-light series">Learn More</a>
+            </div>
           </div>
-        </div>
         </div>
 
-       <div class="features_card mx-md-4 mb-3">
-        <div class="card series  h-100 ">  
-          <div class="card-body text-light ">
-            <div class="h1 mb-2"><i class="bi bi-file-person"></i></div>
-            <h4 class="card-title mb-3">Professionals</h4>
-            <p class="card-text">There are instructors who are professionls waiting put you through.</p>
-            <a href="#" class="btn bg-dark text-light">Learn More</a>
+        <div class="features_card mx-md-4 mb-3">
+          <div class="card series  h-100 ">
+            <div class="card-body text-light ">
+              <div class="h1 mb-2"><i class="bi bi-file-person"></i></div>
+              <h4 class="card-title mb-3">Professionals</h4>
+              <p class="card-text">There are instructors who are professionls waiting put you through.</p>
+              <a href="#" class="btn bg-dark text-light">Learn More</a>
+            </div>
           </div>
         </div>
-       </div>
-       <div class="features_card mb-3">
-        <div class="card second_col bg-dark  h-100" >  
-          <div class="card-body text-light ">
-            <div class="h1 mb-2"><i class="bi bi-people-fill"></i></div>
-            <h4 class="card-title mb-3">Inperson</h4>
-            <p class="card-text">An instructor is assign to each student to help personalize the learning</p>
-            <a href="#" class="btn series  text-light">Learn More</a>
+        <div class="features_card mb-3">
+          <div class="card second_col bg-dark  h-100">
+            <div class="card-body text-light ">
+              <div class="h1 mb-2"><i class="bi bi-people-fill"></i></div>
+              <h4 class="card-title mb-3">Inperson</h4>
+              <p class="card-text">An instructor is assign to each student to help personalize the learning</p>
+              <a href="#" class="btn series  text-light">Learn More</a>
+            </div>
           </div>
         </div>
-       </div>
 
-     </div>
+      </div>
     </div>
   </section>
 
@@ -159,35 +157,38 @@
   <section class="p-5" id="questions">
     <div class="container">
       <h2 class="text-center"> Frequently asked Questions</h2>
-      
+
       <div class="accordion accordion-flush" id="questions">
         <!-- Question1 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
-             Where is your office Located
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-one">
+              Where is your office Located
             </button>
           </h2>
-          <div id="question-one" class="accordion-collapse collapse"  data-bs-parent="#questions">
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
             <div class="accordion-body">Our Office is entirely remote.</div>
           </div>
         </div>
         <!-- Question2 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-two">
               Which programming languages do you offer
             </button>
           </h2>
           <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
-            <div class="accordion-body">Front-end-HTML,CSS,Javascript,vuejs,react, Angular.<br> Backend - python, nodejs, php,java</div>
+            <div class="accordion-body">Front-end-HTML,CSS,Javascript,vuejs,react, Angular.<br> Backend - python,
+              nodejs, php,java</div>
           </div>
         </div>
         <!-- Question3 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#question-three">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-three">
               Will you help me get a Job
             </button>
           </h2>
@@ -197,13 +198,149 @@
         </div>
       </div>
     </div>
+  </section>
+<!-- Instructors -->
+  <section class="p-5 bg-dark " id="instructors">
+    <div class="container">
+      <h2 class="text-light text-center">Our Instructors</h2>
+      <p class="text-light lead text-center">Our Instructors are World class and are good at what they do</p>
+      <div class="row g-4">
+
+        <div class="col-lg-3 col-md-6 ">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="instructor" class="rounded-circle">
+              <h4 class="card-title mb-3">Michael Davies</h4>
+              <p class="card-text">He is a Sotfware Engineer with over 10 Years of experience</p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card  h-100">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/54.jpg" alt="instructor" class="rounded-circle">
+              <h4 class="card-title mb-3">Diana Jones</h4>
+              <p class="card-text">Front Engineer and product Designer with 5 years of experience</p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card   h-100">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="instructor" class="rounded-circle">
+              <h4 class="card-title mb-3">Alfred Peterson</h4>
+              <p class="card-text">Fullstack Developer with Engineering background with 6 years experience</p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="instructor" class="rounded-circle">
+              <h4 class="card-title mb-3">Emily karen</h4>
+              <p class="card-text">Counsellor and a Product Manager with 7 years of experience </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
   </section>
 
+  <!-- contact -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center">Contact Us</h2>
+          <ul class="list-group list-group-flush lead ">
+            <li class="list-group-item">
+              <span class="fw-bold"> Location:</span> Lagos
+            <li class="list-group-item">
 
- 
+              <span class="fw-bold"> Email: </span> developerhub@email.com
+
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold"> Phone: </span> +2228726271773
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-md d-none d-sm-block pt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253692.0314978494!2d3.223438085488129!3d6.52951610093341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9228fa2a3999%3A0xd7a8324bddbba1f0!2sIkeja!5e0!3m2!1sen!2sng!4v1648312776854!5m2!1sen!2sng"
+            width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class=" p-5 bg-dark text-light text-center  position-relative">
+    <div class="container">
+      <p class="h4">copyright &copy; developerhub 2022</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5 text-light"><i class="bi-arrow-up-circle h1"></i></a>
+    </div>
+
+  </footer>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Enrolment Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         
+          <form action="">
+            <div class="mb-3">  
+              <label for="name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">  
+              <label for="email" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="Email">
+            </div>
+            <div class="mb-3">  
+              <label for="phone" class="col-form-label">Phone:</label>
+            <input type="text" class="form-control" id="phone">
+            </div>
+          </form>
+       
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.js"></script>
-
 </body>
 
 </html>
