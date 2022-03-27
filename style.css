@@ -11,8 +11,9 @@
 .learn{
     background-color: #F1F3F4;
 }
+
 .features_card{
-    width: 18rem;
+    width: 80%;
 
   }
 
@@ -45,5 +46,10 @@
 .learn p{
         text-align: justify!important;
     }
+    .features_card{
+        width: 100%;
+    
+      }
+    
 
 }
